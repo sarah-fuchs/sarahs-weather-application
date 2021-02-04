@@ -1,105 +1,102 @@
 h1 {
-    font-weight: normal;
-    color: #455a64;
-    margin: 0px auto;
-    margin-top: 0;
-    display: inline;
-    position: relative;
-    top: 100px;
-    left: 160px;
-    font-size: 40px;
-  }
-  h2 {
-    font-weight: normal;
-    color: #455a64;
-    font-size: 50px;
-    margin-left: 30px auto;
-    position: relative;
-    left: 170px;
-    top: 150px;
-  }
-  
-  form {
-    position: relative;
-    max-width: 400px;
-    top: 90px;
-  }
-  p {
-    font-size: 20px;
-  }
-  img {
-    margin: 20px auto;
-    max-width: 200px;
-  }
-  .container {
-    max-width: 100%;
-    width: 100%;
-  }
-  
-  .weatherheader {
-    font-family: monospace;
-    text-align: center;
-    position: relative;
-    top: 30px;
-    font-size: 20px;
-    right: 80px;
-  }
-  .details {
-    margin: 40px;
-    color: #757575;
-    position: relative;
-    top: 200px;
-    left: 100px;
-  }
-  .cloudsun-icon {
-    font-size: 38px;
-    color: #455a64;
-  }
-  .cloudrain-icon {
-    font-size: 38px;
-    color: #455a64;
-  }
-  .cardcontainer {
-    max-width: 700px;
-    padding: 10px;
-    margin: 70px auto;
-    background-color: #e2e6ea;
-    border: 1mm solid lightblue;
-  }
-  .cloud-icon {
-    font-size: 38px;
-    color: #455a64;
-  }
-  .shower-icon {
-    font-size: 38px;
-    color: #455a64;
-  }
-  .snow-icon {
-    font-size: 38px;
-    color: #455a64;
-  }
-  .col-2 {
-    text-align: center;
-    margin-top: 70px auto;
-  }
-  
-  .card-sun {
-    border: 1mm solid yellow;
-  }
-  
-  .Sun {
-    font-size: 40px;
-  }
-  .Mon {
-    font-size: 40px;
-  }
-  .Tue {
-    font-size: 40px;
-  }
-  .Wed {
-    font-size: 40px;
-  }
-  .Thu {
-    font-size: 40px;
-  }
-  
+  font-weight: normal;
+  color: #455a64;
+  margin: 0px auto;
+  margin-top: 0;
+  display: inline;
+  position: relative;
+  top: 100px;
+  left: 160px;
+  font-size: 40px;
+}
+h2 {
+  font-weight: normal;
+  color: #455a64;
+  font-size: 40px;
+  margin: 30px auto;
+  position: relative;
+  left: 170px;
+  top: 150px;
+}
+
+form {
+  max-width: 400px;
+}
+p {
+  font-size: 20px;
+}
+img {
+  margin: 20px auto;
+  max-width: 200px;
+}
+.container {
+  max-width: 100%;
+  width: 100%;
+}
+
+.weatherheader {
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  font-size: 20px;
+  right: 80px;
+}
+.details {
+  margin: 40px;
+  color: #757575;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+.cloudsun-icon {
+  font-size: 38px;
+  color: #455a64;
+}
+.cloudrain-icon {
+  font-size: 38px;
+  color: #455a64;
+}
+.cardcontainer {
+  max-width: 700px;
+  padding: 10px;
+  margin: 70px auto;
+  background-color: #e2e6ea;
+  border: 1mm solid lightblue;
+}
+.cloud-icon {
+  font-size: 38px;
+  color: #455a64;
+}
+.shower-icon {
+  font-size: 38px;
+  color: #455a64;
+}
+.snow-icon {
+  font-size: 38px;
+  color: #455a64;
+}
+.col-2 {
+  text-align: center;
+  margin-top: 70px auto;
+}
+
+.card-sun {
+  border: 1mm solid yellow;
+}
+
+.Sun {
+  font-size: 40px;
+}
+.Mon {
+  font-size: 40px;
+}
+.Tue {
+  font-size: 40px;
+}
+.Wed {
+  font-size: 40px;
+}
+.Thu {
+  font-size: 40px;
+}

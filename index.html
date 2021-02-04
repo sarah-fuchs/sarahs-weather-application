@@ -7,7 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/dba3ee5eab.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
  <div class="container">
@@ -21,7 +22,7 @@
                      <input type="text" class="form-control" id="city-input" placeholder=" 🔎 Search your city here">
                  </br> 
                      <input type="submit" class="btn btn-primary" value="Search"/> 
-                     <!---input type="submit" class="btn btn-success" value="Current Location"--->        
+                     <input type="button" class="btn btn-success" value="Current Location"/>       
                  </div>
              </form>
             <div class="row">
@@ -39,7 +40,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <img src="src/Images/weathergirl.svg" width="400" style="float: right;">
+                            <img src="images/weathergirl.svg" width="400" style="float: right;">
                         </div>
                     </div>
                 </div>
@@ -127,6 +128,6 @@
 </div>
 </div>
 </div>
-<script src="index.js"></script>
+<script src="src/index.js"></script>
 </body>
     </html>
