@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dba3ee5eab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+ <div class="container">
+     <div class="card cardcontainer">
+         <div class="card-body">
+            <h1 class="weatherheader" >
+                Saturday, January 2, 2021, 12:01
+            </h1>
+             <form id="search-form">
+                 <div class="form-group">
+                     <input type="text" class="form-control" id="city-input" placeholder=" 🔎 Search your city here">
+                 </br> 
+                     <input type="submit" class="btn btn-primary" value="Search"/> 
+                     <!---input type="submit" class="btn btn-success" value="Current Location"--->        
+                 </div>
+             </form>
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="change-city">
+                        📍Vienna, Austria
+                    </h1>
+                    <h2 id="current-temperature">
+                        2°C
+                    </h2>
+                    <div class="details">
+                        Humidity: 65% </br>
+                        Precipitation: 0mm </br>
+                        Wind: 26 km/hr
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="src/Images/weathergirl.svg" width="400" style="float: right;">
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class ="card card-sun">
+                            <div class="card-body">
+                                Sun
+                            </br>
+                            <div class="Sun" > 
+                                <i class="fas fa-cloud-sun cloudsun-icon"></i>
+                                <p> <strong> 5°</strong> 1°</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class ="card">
+                        <div class="card-body">
+
+                            Mon
+                        </br>
+                        <div class="Mon" > <i class="fas fa-cloud-rain cloudrain-icon"></i> 
+                            <p> <strong> 3°</strong> 0°</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class ="card">
+                    <div class="card-body">
+                Tue
+            </br>
+            <div class="Tue" > <i class="fas fa-cloud cloud-icon"></i> 
+                <p> <strong> 9°</strong> 5°</p>
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="col-2">
+            <div class ="card">
+                <div class="card-body">
+            Wed
+        </br>
+        <div class="Wed" > <i class="fas fa-cloud-showers-heavy shower-icon"></i>
+            <p> <strong> 7°</strong> 3°</p>
+         </div>
+    </div>
+</div>
+    </div>
+    <div class="col-2">
+        <div class ="card">
+            <div class="card-body">
+        Thu
+    </br>
+    <div class="Thu" > <i class="fas fa-snowflake snow-icon"></i> 
+        <p> <strong> 1°</strong> 0°</p>
+    </div>
+</div>
+</div>
+</div>
+<div class="col-2">
+    <div class ="card">
+        <div class="card-body">
+    Fri
+</br>
+<div class="Sun" >  <i class="fas fa-cloud-sun cloudsun-icon"></i> 
+    <p> <strong> 2°</strong> 1°</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+<div class="row">
+<div class="col-6">
+
+
+
+
+</div>
+</div>
+</div>
+<script src="index.js"></script>
+</body>
+    </html>
