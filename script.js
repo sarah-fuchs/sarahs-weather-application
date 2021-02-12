@@ -77,9 +77,9 @@ cityForm.addEventListener("submit", enterCity);
 function showTemperature(response) {
   console.log(response);
   let temperature = Math.round(response.data.main.temp);
-
+  
   //Bonus Part
-  let heading = document.querySelector("h1");
+  let heading = document.querySelector("#current-temperature");
   heading.innerHTML = `The outside temperature is ${temperature}°C in ${response.data.name}`;
 }
 function retrievePosition(position) {
@@ -88,7 +88,7 @@ function retrievePosition(position) {
   let apiKey = "11c6b1943d69dd9ab2b79eb46ab8283b";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
   console.log(apiUrl);
-  axios.get(apiUrl).then(showCity);
+  axios.get(apiUrl).then(showTemperature);
 }
 let currentLocation = document.querySelector(".btn-success");
 currentLocation.addEventListener("click", showPosition);
